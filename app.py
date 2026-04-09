@@ -13,12 +13,7 @@ with open("student_wellness_model.pkl", "rb") as f:
 # ---------------------------------------------
 # Title & Description
 # ---------------------------------------------
-st.markdown("""
-# 🧠 Student Mental Health Predictor  
-This ML tool analyzes lifestyle factors such as **sleep**, **stress**, **study hours**, **mood**,  
-and **social life** to estimate your mental well-being and offer personalized recommendations.
----
-""")
+
 
 # ---------------------------------------------
 # Input Section
@@ -173,6 +168,12 @@ if st.button("🔍 Predict Mental Health", use_container_width=True):
         st.pyplot(fig)
 
 # Footer
+st.markdown("""
+# 🧠 Student Mental Health Predictor  
+This ML tool analyzes lifestyle factors such as **sleep**, **stress**, **study hours**, **mood**,  
+and **social life** to estimate your mental well-being and offer personalized recommendations.
+---
+""")
 st.markdown("""
 ---
 ### 📘 Disclaimer  
