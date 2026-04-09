@@ -13,7 +13,9 @@ with open("student_wellness_model.pkl", "rb") as f:
 # ---------------------------------------------
 # Title & Description
 # ---------------------------------------------
-
+st.markdown("""
+# 🧠 Student Mental Health Predictor  
+""")
 
 # ---------------------------------------------
 # Input Section
