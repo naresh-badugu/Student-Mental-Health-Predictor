@@ -118,7 +118,7 @@ def generate_recommendations(sleep, stress, study, social, mood):
 # ---------------------------------------------
 # Predict Button
 # ---------------------------------------------
-if st.button("🔍 Predict Mental Health Risk", use_container_width=True):
+if st.button("🔍 Predict Mental Health", use_container_width=True):
 
     df_input = pd.DataFrame([{
         "sleep_hours": sleep,
