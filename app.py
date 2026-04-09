@@ -31,7 +31,7 @@ with col1:
 
 with col2:
     stress = st.slider("🔥 Stress Level (1–10)", 1, 10, 5)
-    mood = st.slider("🙂 Mood Score (1–10)", 1, 10, 6)
+    mood = st.slider("🙂 Happiness Level(1–10)", 1, 10, 6)
 
 # ---------------------------------------------
 # Recommendation Logic
