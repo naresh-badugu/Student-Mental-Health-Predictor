@@ -171,7 +171,7 @@ if st.button("🔍 Predict Mental Health", use_container_width=True):
 
 # Footer
 st.markdown("""
-# 🧠 Student Mental Health Predictor  
+ 
 This ML tool analyzes lifestyle factors such as **sleep**, **stress**, **study hours**, **mood**,  
 and **social life** to estimate your mental well-being and offer personalized recommendations.
 ---
