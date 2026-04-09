@@ -14,7 +14,7 @@ with open("student_wellness_model.pkl", "rb") as f:
 # Title & Description
 # ---------------------------------------------
 st.markdown("""
-# 🧠 Student Mental Health Risk Predictor  
+# 🧠 Student Mental Health Predictor  
 This ML tool analyzes lifestyle factors such as **sleep**, **stress**, **study hours**, **mood**,  
 and **social life** to estimate your mental well-being and offer personalized recommendations.
 ---
